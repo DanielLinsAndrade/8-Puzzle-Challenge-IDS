@@ -3,7 +3,7 @@ Repositório com desafio de 8-Puzzle tentando utilizar o algoritmo IDS
 
 ## Eight Puzzle IDS (Tkinter)
 
-## Instalar em modo desenvolvimento
+## Comandos pra instalar
 ```bash
 pip install -e .
 python main.py

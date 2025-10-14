@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eight-puzzle-ids"
+version = "0.1.0"
+description = "8-Puzzle com IDS e GUI Tkinter"
+authors = [{name = "Bruno, Daniel, Gerson, Pollyana"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+eight-puzzle = "eight_puzzle.gui.app:run"

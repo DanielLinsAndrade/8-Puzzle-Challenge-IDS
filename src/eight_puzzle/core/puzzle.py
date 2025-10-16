@@ -9,7 +9,8 @@ Movimentos = List[Estado]
 def sucessores(estado: Estado) -> Generator[Estado, None, None]:
     i0 = estado.index(0)
     r, c = indice_para_rc(i0)
-    for dr, dc in [(-1,0),(1,0),(0,-1),(0,1)]:  # cima, baixo, esq, dir
+    # Direções das peças: Cima, Baixo, Esquerda, Direita
+    for dr, dc in [(-1,0),(1,0),(0,-1),(0,1)]:
         nr, nc = r+dr, c+dc
         if 0 <= nr < 3 and 0 <= nc < 3:
             j = rc_para_indice(nr, nc)

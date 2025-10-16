@@ -16,7 +16,8 @@ def dls(estado_inicial: Estado, limite: int) -> tuple[bool, Caminho | None, int]
             return True, caminho, visitados
         if prof < limite:
             for s in sucessores(estado):
-                if s not in caminho:  # evita ciclos no caminho
+                # evita ciclos no caminho
+                if s not in caminho:
                     stack.append((s, prof+1, caminho+[s]))
     return False, None, visitados
 

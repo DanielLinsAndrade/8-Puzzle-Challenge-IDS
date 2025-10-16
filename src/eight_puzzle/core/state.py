@@ -1,7 +1,9 @@
 from __future__ import annotations
 from typing import Iterable, List, Tuple
 
-OBJETIVO: Tuple[int, ...] = (1,2,3,4,5,6,7,8,0)
+OBJETIVO: Tuple[int, ...] = (1,2,3
+                            ,4,5,6
+                            ,7,8,0)
 
 def indice_para_rc(i: int) -> Tuple[int, int]:
     return divmod(i, 3)

@@ -58,7 +58,7 @@ class PuzzleGUI:
 
         self.render()
 
-    # ---------- GUI helpers ----------
+    # GUI HELPERS
     def render(self) -> None:
         for i, b in enumerate(self.buttons):
             val = self.state[i]

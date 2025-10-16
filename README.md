@@ -116,7 +116,7 @@ Para o inicial `(1,2,3,4,0,6,7,5,8)`, o **caminho ótimo** é:
 1. Abra o app → **Digitar Tabuleiro** → cole `(1,2,3,4,0,6,7,5,8)`.  
 2. Clique **Resolver (IDS)**.  
 3. Anote: **L**, **Passos**, **Nós visitados**.  
-4. Passo Opcional: **▶ Reproduzir** para animar o caminho.
+4. Passo Opcional: **Reproduzir** para animar o caminho.
 
 ## Créditos
  
